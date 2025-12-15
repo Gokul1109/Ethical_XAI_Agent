@@ -16,17 +16,17 @@ def main():
     teams=data['teams']
     print("Loaded task and users from JSON.")
 
-    ## 3. Run Ethical Agent
-    ##print("\n Running Ethical Agent...")
-    ##decision_json_str = run_ethical_agent(task, users)
-    ##print("\n--- ETHICAL AGENT DECISION (raw JSON string) ---")
-    ##print(decision_json_str)
+    # 3. Run Ethical Agent
+    print("\n Running Ethical Agent...")
+    decision_json_str = run_ethical_agent(task, users)
+    print("\n--- ETHICAL AGENT DECISION (raw JSON string) ---")
+    print(decision_json_str)
 
     # 4. Run Explainable Agent
-    ##print("\n Running XAI Agent...")
-    ##explanation = run_explainable_agent(decision_json_str)
-    ##print("\n--- EXPLAINABLE AGENT OUTPUT ---")
-    ##print(explanation)
+    print("\n Running XAI Agent...")
+    explanation = run_explainable_agent(decision_json_str)
+    print("\n--- EXPLAINABLE AGENT OUTPUT ---")
+    print(explanation)
 
     # Performance review / recognition
     print("\n Running Performance Recognition Agent...")
@@ -34,17 +34,17 @@ def main():
     print("\n--- PERFORMANCE REVIEW OUTPUT ---")
     print(recognition)
 
-     # Conflict Resolution (NEW USE CASE)
+    # Conflict Resolution (NEW USE CASE)
     
-    #print("\nRunning Conflict Resolution Agent...")
-    #conflict_resolution = run_conflict_resolution_agent(task, teams, users)
-    #print("\n--- CONFLICT RESOLUTION OUTPUT ---")
-    #print(conflict_resolution)
+    print("\nRunning Conflict Resolution Agent...")
+    conflict_resolution = run_conflict_resolution_agent(task, teams, users)
+    print("\n--- CONFLICT RESOLUTION OUTPUT ---")
+    print(conflict_resolution)
 
-    #print("\nRunning Risk & Ethics Decision Agent...")
-    #risk_decision = run_risk_ethics_agent(task, data["teams"])
-    #print("\n--- RISK & ETHICS DECISION OUTPUT ---")
-    #print(risk_decision)
+    print("\nRunning Risk & Ethics Decision Agent...")
+    risk_decision = run_risk_ethics_agent(task, data["teams"])
+    print("\n--- RISK & ETHICS DECISION OUTPUT ---")
+    print(risk_decision)
 
 if __name__ == "__main__":
     main()
