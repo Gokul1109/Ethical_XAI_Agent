@@ -1,0 +1,49 @@
+{
+    "task": {
+      "id": "T1",
+      "title": "Fix login page bug",
+      "difficulty": "medium",
+  
+      "deadline_pressure": "high",
+      "risk_scenarios": {
+        "skip_testing": {
+          "time_saved_days": 1,
+          "risk_increase_percent": 25
+        }
+      }
+    },
+  
+    "teams": [
+      {
+        "team_id": "DEV_TEAM_1",
+        "team_type": "development",
+        "progress": 85,
+        "critical_bugs": 2,
+        "blocker_bugs": 0
+      },
+      {
+        "team_id": "TEST_TEAM_1",
+        "team_type": "testing",
+        "progress": 60,
+        "critical_bugs": 4,
+        "blocker_bugs": 2
+      }
+    ],
+  
+    "users": [
+      {
+        "id": "U1",
+        "name": "Alice",
+        "team_id": "DEV_TEAM_1",
+        "workload": 2,
+        "availability": true
+      },
+      {
+        "id": "U2",
+        "name": "Charlie",
+        "team_id": "TEST_TEAM_1",
+        "workload": 4,
+        "availability": true
+      }
+    ]
+  }

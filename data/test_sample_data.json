@@ -1,0 +1,62 @@
+{
+    "task": {
+      "id": "T1",
+      "title": "Fix login page bug",
+      "difficulty": "medium"
+    },
+    "users": [
+      {
+        "id": "U1",
+        "name": "Alice",
+        "seniority": "junior",
+        "workload": 2,
+        "availability": true
+      },
+      {
+        "id": "U2",
+        "name": "Bob",
+        "seniority": "senior",
+        "workload": 5,
+        "availability": true
+      },
+      {
+        "id": "U3",
+        "name": "Charlie",
+        "seniority": "junior",
+        "workload": 1,
+        "availability": false
+      }
+    ]
+  } 
+  
+  {
+    "task": {
+      "id": "T1",
+      "title": "Fix login page bug",
+      "difficulty": "medium"
+    },
+    "users": [
+      {
+        "id": "U1",
+        "name": "Alice",
+        "seniority": "junior",
+        "workload": 2,
+        "availability": true
+      },
+      {
+        "id": "U2",
+        "name": "Bob",
+        "seniority": "senior",
+        "workload": 5,
+        "availability": true
+      },
+      {
+        "id": "U3",
+        "name": "Charlie",
+        "seniority": "junior",
+        "workload": 1,
+        "availability": false
+      }
+    ]
+  }
+  
